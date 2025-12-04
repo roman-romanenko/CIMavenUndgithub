@@ -9,6 +9,6 @@ public class Main {
     }
 
     public static boolean isEven(int number) {
-        return number % 2 == 1;
+        return number % 2 == 0;
     }
 }
