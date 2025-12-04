@@ -29,5 +29,17 @@ class MainTest {
         assertEquals(expected, actual);
     }
 
+    @Test
+    void multiply_shouldReturn8_whenArgumentsAre2and4() {
+        //GIVEN
+        int a = 2;
+        int b = 4;
+        int expected = 8;
+        //WHEN
+        int actual = Main.multiply(a, b);
+        //THEN
+        assertEquals(expected, actual);
+    }
+
 
 }
