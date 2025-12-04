@@ -17,4 +17,17 @@ class MainTest {
         //THEN
             assertEquals(expected, actual);
     }
+
+    @Test
+    void isEven_shouldReturnTrue_whenArguments6() {
+        //GIVEN
+        int a = 6;
+        boolean expected = true;
+        //WHEN
+        boolean actual = Main.isEven(a);
+        //THEN
+        assertEquals(expected, actual);
+    }
+
+
 }
